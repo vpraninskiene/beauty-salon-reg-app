@@ -1,8 +1,10 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom"
 import { Header } from './components/Header/Header';
-import { LoginPage } from './pages/LoginPage/LoginPage';
 import { RegistrationPage } from './pages/RegistrationPage/RegistrationPage';
+import { LoginPage } from './pages/LoginPage/LoginPage';
+import { Footer } from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Route path="/" element={<LoginPage/>}/>
         <Route path="/register" element={<RegistrationPage/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
