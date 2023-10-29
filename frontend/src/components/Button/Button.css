@@ -1,0 +1,19 @@
+.main-button {
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .primary {
+    color: rgb(238, 238, 238);
+    background-color: #c51a48;
+    width: 170px;
+  }
+  
+  .secondary {
+    background-color:#EEEEEE;
+    border: 2px solid #7a7a7a;
+    color: black;
+  }
