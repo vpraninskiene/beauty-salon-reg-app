@@ -1,0 +1,33 @@
+.registration-page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(174, 193, 212, 0.6), rgba(194, 211, 228, 0.6)), url(../../assets/welcome.jpg);
+}
+
+.registration-card-internal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(157, 191, 205);
+    padding: 50px;  
+    gap: 20px;  
+    text-align: center;
+    color: rgb(77, 75, 75);
+}
+
+.registration-card-internal form input {
+    padding: 7px 80px 10px 80px;
+    background-color: rgb(238, 238, 238);
+    border-color: white;
+    margin-bottom: 10px;
+    
+}
+
+.registration-card-internal form label {
+    text-align: left;
+}
