@@ -7,6 +7,7 @@ export const Header= () => {
     return (
         <div className='header-wrapper'>
             <div className='header-content-wrapper'>
+            <Link to="/cliens-registration">clients</Link> 
                 <Link to="/">
                     <img className='logo-img' src={logo} alt="logo" />
                     </Link>
@@ -14,7 +15,8 @@ export const Header= () => {
                     <h1>Sakura Blossom</h1>
                     <p>beauty salon</p> 
                 </div>
-            </div>   
+            </div> 
+             
         </div>   
     );
 }
