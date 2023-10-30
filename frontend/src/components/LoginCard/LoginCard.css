@@ -12,15 +12,17 @@
     color: rgb(77, 75, 75);
 }
 
-form {
+.login-card-wrapper form {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-form input {
-    padding: 7px 45px 10px 45px;
+.login-card-wrapper form input {
+    height: 35px;
+    width: 250px;
     background-color: rgb(238, 238, 238);
     border-color: white;
     margin-bottom: 10px;
 }
+

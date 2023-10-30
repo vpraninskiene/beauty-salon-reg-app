@@ -20,13 +20,20 @@
     color: rgb(77, 75, 75);
 }
 
+.registration-card-internal form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .registration-card-internal form input {
-    padding: 7px 80px 10px 80px;
+    height: 40px;
+    width: 300px;
     background-color: rgb(238, 238, 238);
     border-color: white;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
+
 
 .registration-card-internal form label {
     text-align: left;
