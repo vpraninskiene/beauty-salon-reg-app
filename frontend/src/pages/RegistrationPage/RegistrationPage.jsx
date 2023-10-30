@@ -7,13 +7,13 @@ export const RegistrationPage = () => {
             <div className="registration-card-internal">
                 <h3>Registration</h3>
                 <form id="registration-form">
-                    <label for="fname">First Name</label>
+                    <label htmlFor="fname">First Name</label>
                     <input type="text" id="fname" required />
-                    <label for="lname">Last Name</label>
+                    <label htmlFor="lname">Last Name</label>
                     <input type="text" id="lname" required />
-                    <label for="email">Email</label>
+                    <label htmlFor="email">Email</label>
                     <input type="email" id="email" required />
-                    <label for="password">Password</label>
+                    <label htmlFor="password">Password</label>
                     <input type="password" id="password" required/>
                     <div id="login-btn">
                         <Button theme="primary" title="Submit"/>
