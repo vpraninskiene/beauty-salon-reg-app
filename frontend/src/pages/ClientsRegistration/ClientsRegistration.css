@@ -8,6 +8,10 @@ main {
     color: rgb(77, 75, 75);
 }
 
+main h2 {
+    margin: 20px;
+}
+
 .client-registration-form {
     display: flex;
     flex-direction: row;
@@ -23,11 +27,6 @@ main {
     background-color: rgb(238, 238, 238);
     border-color: white;
     margin: auto;
-      
+    height: 35px;
+    width: 250px;
 }
-
-
-main h2 {
-    margin: 20px;
-}
-
